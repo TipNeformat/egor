@@ -1,0 +1,39 @@
+.aa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEE;
+    font-family: Georgia;
+    height: 120%;
+    background: url(https://ae04.alicdn.com/kf/H3165e6ffb63045c0b06483b0f95109823.jpg_640x640.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: -1px -1px #FFF,
+        -2px -2px #FFF,
+        -1px 1px #FFF,
+        -2px 2px #FFF,
+        1px 1px #FFF,
+        2px 2px #FFF,
+        1px -1px #FFF,
+        2px -2px #FFF,
+        -3px -3px 2px #BBB,
+        -3px 3px 2px #BBB,
+        3px 3px 2px #BBB,
+        3px -3px 2px #BBB;
+    color: rgb(38, 187, 137);
+    transition: all 1s;
+}
+
+h1:hover {
+    color: yellowgreen;
+}
+
+  

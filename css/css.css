@@ -1,4 +1,70 @@
-.p{
-display: flex;
-align-items: center;
+.aa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-family: Georgia;
+    background:linear-gradient(200deg,#aae0a8,#1f5722); 
+    background-size:500% 500%;
+    -webkit-animation:ServiceAnimation 10s ease infinite;
+    -moz-animation:ServiceAnimation 10s ease infinite;
+    -o-animation:ServiceAnimation 10s ease infinite;
+    animation:ServiceAnimation 10s ease infinite; 
+    height: 100%;
 }
+@-webkit-keyframes ServiceAnimation{0%
+    {background-position:90% 0}50%
+    {background-position:10% 100%}100%
+    {background-position:90% 0}
+  }
+  @-moz-keyframes ServiceAnimation{0%
+    {background-position:90% 0}50%
+    {background-position:10% 100%}100%
+    {background-position:90% 0}
+  }
+  @-o-keyframes ServiceAnimation{0%
+    {background-position:90% 0}50%
+    {background-position:10% 100%}100%
+    {background-position:90% 0}
+  }
+  @keyframes ServiceAnimation{0%
+    {background-position:90% 0}50%
+    {background-position:10% 100%}100%
+    {background-position:90% 0}
+  }
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: 1px 1px 0 hsl(20, 100%, 50%),
+        2px 2px 0 hsl(20, 100%, 50%),
+        3px 3px 0 hsl(35, 100%, 50%),
+        4px 4px 0 hsl(35, 100%, 50%),
+        5px 5px 0 hsl(45, 100%, 50%),
+        6px 6px 0 hsl(45, 100%, 55%),
+        7px 7px 0 hsl(55, 100%, 60%),
+        8px 8px 0 hsl(55, 100%, 65%);
+    color: hsl(0, 100%, 40%);
+    transition: all 1s;
+}
+
+h1:hover {
+    text-shadow: 1px -1px 0 hsl(290, 100%, 40%),
+        2px -2px 0 hsl(290, 100%, 40%),
+        3px -3px 0 hsl(280, 100%, 60%),
+        4px -4px 0 hsl(280, 100%, 60%),
+        5px -5px 0 hsl(270, 100%, 75%),
+        6px -6px 0 hsl(270, 100%, 80%),
+        7px -7px 0 hsl(260, 100%, 85%),
+        8px -8px 0 hsl(260, 100%, 90%);
+    color: hsl(300, 100%, 30%);
+}
+
+.gg{
+    background: url(https://ae04.alicdn.com/kf/H3165e6ffb63045c0b06483b0f95109823.jpg_640x640.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+  }
+       
